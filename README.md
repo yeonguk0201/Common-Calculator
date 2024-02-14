@@ -5,9 +5,5 @@
 <br/><br/>
 
 <h3>결과</h3>
-<img width="374" alt="image" src="https://github.com/yeonguk0201/Common-Calculator/issues/1#issue-2134808031">
-
-<img width="1261" alt="image" src="https://github.com/yeonguk0201/Common-Calculator/issues/2#issue-2134808914">
-
-
-
+<img width="210" alt="image" src="https://github.com/yeonguk0201/Common-Calculator/assets/105638310/f568c1bf-1077-47f9-81fb-b5b337f94ddb">
+<img width="212" alt="image" src="https://github.com/yeonguk0201/Common-Calculator/assets/105638310/2621add6-a90c-4bd7-a5f8-979019d702bc">
