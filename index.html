@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+    <title>간단한 계산기</title>
+  </head>
+  <body>
+    <div class="calculation">
+      <header>
+        <p>계산기</p>
+        <button type="button" id="log">◷</button>
+      </header>
+      <section>
+        <div id="current"></div>
+        <div id="result"></div>
+      </section>
+      <div class="button">
+        <button type="button" class="btn btn-side" id="btn-per">%</button>
+        <button type="button" class="btn btn-side" id="btn-cancel">CE</button>
+        <button type="button" class="btn btn-side" id="btn-cancelAll">C</button>
+        <button type="button" class="btn btn-side" id="btn-del">del</button>
+        <button type="button" class="btn btn-side" id="btn-fountain">1/x</button>
+        <button type="button" class="btn btn-side" id="btn-square">x²</button>
+        <button type="button" class="btn btn-side" id="btn-root">x½</button>
+        <button type="button" class="btn btn-side operatorBasic" id="btn-div">÷</button>
+        <button type="button" class="btn num">7</button>
+        <button type="button" class="btn num">8</button>
+        <button type="button" class="btn num">9</button>
+        <button type="button" class="btn btn-side operatorBasic" id="btn-mul">×</button>
+        <button type="button" class="btn num">4</button>
+        <button type="button" class="btn num">5</button>
+        <button type="button" class="btn num">6</button>
+        <button type="button" class="btn btn-side operatorBasic" id="btn-min">-</button>
+        <button type="button" class="btn num">1</button>
+        <button type="button" class="btn num">2</button>
+        <button type="button" class="btn num">3</button>
+        <button type="button" class="btn btn-side operatorBasic" id="btn-plus">+</button>
+        <button type="button" class="btn" id="btn-plus-min">+/-</button>
+        <button type="button" class="btn num">0</button>
+        <button type="button" class="btn" id="btn-dot">.</button>
+        <button type="button" class="btn" id="btn-result">=</button>
+      </div>
+      <div id="log-box-background">
+        <div id="log-box">
+          <ul id="log-list"></ul>
+        </div>
+        <div class="clean-log-box">
+          <button type="button" class="btn" id="clean-log">🗑️</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="app.js"></script>
+</html>

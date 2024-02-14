@@ -1,0 +1,15 @@
+{
+  "name": "my-calculator-app",
+  "version": "1.0.0",
+  "description": "Simple Calculator Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^12.3.1"
+  }
+}
